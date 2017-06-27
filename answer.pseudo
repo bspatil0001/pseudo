@@ -1,0 +1,7 @@
+function getNumber(min, max) {
+    return Math.round(Math.random() * (max - min) + min);
+}
+
+function generateName(name){
+  return name +" "+ getNumber(6,15);
+}
